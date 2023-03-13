@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;    
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background: linear-gradient(45deg, #bdbaa6 , #58563c);
+    padding-right: 40px;
+    margin-left: -13px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    line-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu li{
+    list-style: none;
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.header {
+    background-color: #bdbaa6;
+    min-height: 150px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 50%;
+}
+.content {
+    background: linear-gradient(#bdbaa6, #58563c);
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.content p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}   
+.footer {
+    background-color: #58563c;
+    min-height: 109px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+#foto{
+    padding: 20px;
+    width: 150PX;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60%;    
+}
+#btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
